@@ -9,7 +9,7 @@
 SendMode Input
 
 ; --------------------------------------------------------------
-; Remap the left Alt to Ctrl, left Win to Alt, left Ctrl to Win
+; Remap the left Ctrl, Alt, Win keys from [Ctrl][Fn][Win][Alt] to [Win][Fn][Alt][Ctrl]
 ; --------------------------------------------------------------
 
 LCtrl::LWin
@@ -20,10 +20,10 @@ LWin::Alt
 ; System shortcuts
 ; --------------------------------------------------------------
 
-; Close windows (cmd + q to Alt + F4)
+; Close Window (Cmd + q to Alt + F4)
 ^q:: Send !{f4}
 
-; Minimize window
+; Minimize Window
 ^m::WinMinimize,a
 
 ; Switch Input Language
