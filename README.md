@@ -1,4 +1,4 @@
-#Simulate Mac keyboard in Windows
+# Simulate Mac keyboard in Windows
 
 This Autohotkey script simulate Mac keyboard and some system shortcuts in Windows.
 
